@@ -22,3 +22,8 @@ Update URI: false
 
 /* Learning path: text-based diagrams remain readable without images or scripts. */
 .lesson-module{margin-block:40px}.lesson-list h3{font-size:1.65rem}.lesson-diagram{margin:28px 0;padding:20px;border:1px solid var(--tf-border);border-radius:12px;background:var(--tf-surface)}.lesson-diagram ol{display:flex;flex-wrap:wrap;gap:20px 28px;padding:0;list-style-position:inside}.lesson-diagram li{flex:1 1 140px;min-width:0;padding:12px;border:1px solid var(--tf-border);border-radius:8px;color:var(--tf-gold)}.lesson-diagram figcaption{font-size:13px;color:var(--tf-muted)}
+
+/* Keep the static site's dark mobile menu readable over parent-theme colors. */
+body.tf-site .mobile-navigation a { color: var(--tf-text); }
+body.tf-site .mobile-navigation a:hover,
+body.tf-site .mobile-navigation a:focus-visible { color: var(--tf-gold); }
